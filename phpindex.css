@@ -1,0 +1,148 @@
+ /* ヘッダー全体を中央に配置 */
+header {
+    width: 100%;                    /* 幅を全体に */
+    /* background-color: #f8f8f8;      任意の背景色 */
+    padding: 20px 0;                /* 上下のパディング */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 任意のボックスシャドウ */
+}
+/* リセット: ulのデフォルトスタイルを削除 */
+.header-list ul {
+    list-style: none;       /* リストマーカーを削除 */
+    margin: 0;              /* デフォルトのマージンを削除 */
+    padding: 0;             /* デフォルトのパディングを削除 */
+    display: flex;          /* フレックスボックスを使用 */
+    justify-content: center;/* 子要素を中央に配置 */
+    gap: 20px;              /* リストアイテム間のスペース */
+}
+
+/* リストアイテム内のリンクスタイル */
+.header-list li a {
+    text-decoration: none; /* 下線を削除 */
+    color: #333;           /* テキストカラー */
+    font-size: 16px;       /* フォントサイズ */
+    transition: color 0.3s;/* ホバー時の色変更にトランジションを追加 */
+}
+
+.header-list li a:hover {
+    color: #007BFF;        /* ホバー時の色 */
+}
+ 
+ 
+ /* 優しいタッチのスタイル */
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #5b9bd5;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #5b9bd5;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4a89c7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styles.css
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#statusMessage {
+    margin-top: 20px;
+    color: #28a745;
+    text-align: center;
+} */
